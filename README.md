@@ -8,7 +8,7 @@
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1500&color=818CF8&center=true&vCenter=true&repeat=true&width=500&height=40&lines=Data+Scientist+%E2%9C%A6+ML%2FDL+Researcher;Banking+%E2%9C%A6+Student+%E2%9C%A6+Explorer" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1500&color=818CF8&center=true&vCenter=true&repeat=true&width=500&height=40&lines=Data+Scientist+%E2%9C%A6+ML%2FDL+Researcher;Banking+%E2%9C%A6+Student+%E2%9C%A6+Explorer;Transformers+%E2%9C%A6+Graphs+%E2%9C%A6+LLM" alt="Typing SVG" />
 
 </div>
 
@@ -48,15 +48,19 @@
 
 <br><br>
 
-<img src="https://github-profile-trophy.vercel.app/?username=Siesher&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=7"/>
-
-<br><br>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Siesher&background=0D1117&ring=818CF8&fire=C4B5FD&currStreakLabel=A5B4FC&sideLabels=A5B4FC&currStreakNum=E0E7FF&sideNums=E0E7FF&dates=6366F1&border=312E81"/>
+<img src="https://streak-stats.demolab.com/?user=Siesher&background=0D1117&ring=818CF8&fire=C4B5FD&currStreakLabel=A5B4FC&sideLabels=A5B4FC&currStreakNum=E0E7FF&sideNums=E0E7FF&dates=6366F1&border=312E81"/>
 
 <br><br>
 
 <img alt="3D Contribution Graph" src="./profile-3d-contrib/profile-night-rainbow.svg" />
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Siesher&bg_color=0D1117&color=A5B4FC&line=818CF8&point=C4B5FD&area_color=312E81&area=true&hide_border=true"/>
 
 </div>
 
