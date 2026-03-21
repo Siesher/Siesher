@@ -88,16 +88,6 @@ class Siesher:
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-### ⏱️ WakaTime
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=Siesher&bg_color=0D1117&title_color=818CF8&text_color=A5B4FC&border_color=312E81&hide_border=false&layout=compact&langs_count=6&locale=ru"/>
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
 ### 🗺️ 3D карта вкладов
 
 <div align="center">
