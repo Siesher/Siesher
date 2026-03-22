@@ -24,7 +24,7 @@
 
 ```python
 class Siesher:
-    """Data Scientist из Бауманки, собирающий модели как Фрирен — заклинания."""
+    """A mage who collects spells across the vast lands of Data Science."""
 
     def __init__(self):
         self.name = "Maksim"
@@ -99,6 +99,16 @@ class Siesher:
 <br><br>
 
 <img src="https://streak-stats.demolab.com/?user=Siesher&background=0D1117&ring=818CF8&fire=C4B5FD&currStreakLabel=A5B4FC&sideLabels=A5B4FC&currStreakNum=E0E7FF&sideNums=E0E7FF&dates=6366F1&border=312E81"/>
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+### 🗺️ 3D карта вкладов
+
+<div align="center">
+
+<img alt="3D Contribution Graph" src="./profile-3d-contrib/profile-night-rainbow.svg" />
 
 </div>
 
