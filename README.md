@@ -1,146 +1,106 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:C4B5FD,50:818CF8,100:6366F1&height=220&section=header&text=%E2%9C%A8%20Siesher%20%E2%9C%A8&fontSize=42&fontColor=E0E7FF&fontAlignY=35&desc=Собиратель%20заклинаний%20%7C%20Data%20Scientist&descSize=16&descColor=C4B5FD&descAlignY=55&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=0D1117&height=120&section=header&text=Siesher&fontSize=36&fontColor=A5B4FC&fontAlignY=50&desc=Data%20Scientist%20%C2%B7%20ML%20Researcher&descSize=14&descColor=6366F1&descAlignY=72&animation=fadeIn"/>
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1500&color=C4B5FD&center=true&vCenter=true&repeat=true&width=600&height=40&lines=%C2%AB%D0%AF+%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE+%D1%81%D0%BE%D0%B1%D0%B8%D1%80%D0%B0%D1%8E+%D0%B7%D0%B0%D0%BA%D0%BB%D0%B8%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F.+%D0%AD%D1%82%D0%BE+%D0%B2%D1%81%D1%91.%C2%BB+%E2%80%94+%D0%A4%D1%80%D0%B8%D1%80%D0%B5%D0%BD" alt="Frieren Quote" />
-
-<br>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&duration=3000&pause=1500&color=818CF8&center=true&vCenter=true&repeat=true&width=550&height=30&lines=Data+Scientist+%E2%9C%A6+ML%2FDL+Researcher+%E2%9C%A6+Student;Transformers+%E2%9C%A6+Graphs+%E2%9C%A6+LLM+%E2%9C%A6+NLP;Banking+%E2%9C%A6+Finance+%E2%9C%A6+Deep+Learning" alt="Roles" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=14&duration=4000&pause=2000&color=6366F1&center=true&vCenter=true&repeat=true&width=440&height=24&lines=%C2%AB%D0%AF+%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE+%D1%81%D0%BE%D0%B1%D0%B8%D1%80%D0%B0%D1%8E+%D0%B7%D0%B0%D0%BA%D0%BB%D0%B8%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F.+%D0%AD%D1%82%D0%BE+%D0%B2%D1%81%D1%91.%C2%BB+%E2%80%94+%D0%A4%D1%80%D0%B8%D1%80%D0%B5%D0%BD" alt="Frieren Quote" />
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-<div align="center">
-
-*🌸 Как Фрирен собирает заклинания тысячу лет — так я собираю модели, алгоритмы и данные. Каждый коммит — новое заклинание в гримуаре. 🌸*
-
-</div>
-
-<br>
-
-### 🏯 О маге
+---
 
 ```python
 class Siesher:
-    """A mage who collects spells across the vast lands of Data Science."""
-    
-    def __init__(self):
-        self.name = "Maksim"
-        self.role = "Data Scientist"
-        self.domain = "Banking & Finance"
-        self.grimoire = ["Transformers", "Graph Neural Networks", "LLM", "NLP"]
-        self.quest = "MIST — Math Intelligent Tutoring System"
-        self.education = "BMSTU (Bauman Moscow State Technical University)"
-        self.spirit = "Frieren 🌸"
-    
-    def philosophy(self):
-        return "The journey of 1000 years begins with a single commit"
-    
-    def daily(self):
-        return "Collecting spells, one model at a time..."
+    name       = "Maksim"
+    role       = "Data Scientist"
+    domain     = "Banking & Finance"
+    education  = "BMSTU"
+    stack      = ["Transformers", "GNN", "LLM", "NLP"]
+    quest      = "MIST — Math Intelligent Tutoring System"
 ```
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-### 📬 Связаться со мной
+---
 
 <div align="center">
 
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Siesher)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rmnfn1992@outlook.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Siesher)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/Siesher)&nbsp;
+[![Email](https://img.shields.io/badge/Email-818CF8?style=flat-square&logo=maildotru&logoColor=white)](mailto:rmnfn1992@outlook.com)&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Siesher)
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+---
 
-### 🛡️ Арсенал заклинаний
+#### Stack
 
 <div align="center">
 
 <img src="https://skillicons.dev/icons?i=py,cpp,pytorch,tensorflow,sklearn,docker&theme=dark" />
-<br><br>
+<br>
 <img src="https://skillicons.dev/icons?i=git,github,githubactions,linux,postgres,vscode&theme=dark" />
-<br><br>
-
-<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white"/>
-<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-### 📜 Гримуар заклинаний (Gists)
+<br>
 
 <div align="center">
 
-[![LoRA Template](https://img.shields.io/badge/🔮_LoRA_Fine--tuning-Template-818CF8?style=for-the-badge)](https://gist.github.com/Siesher/fd31d015d96abb3d01856e4340dd247e)
-[![GNN Fraud](https://img.shields.io/badge/🛡️_GNN_Fraud-Detection-6366F1?style=for-the-badge)](https://gist.github.com/Siesher/60f18d6f3f6ee871827b467bf68016a7)
+<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white"/>
+<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+---
 
-### ⏱️ WakaTime — Время в кодинге
+#### Grimoire — Gists
+
+<div align="center">
+
+[![LoRA](https://img.shields.io/badge/LoRA_Fine--tuning-818CF8?style=flat-square)](https://gist.github.com/Siesher/fd31d015d96abb3d01856e4340dd247e)&nbsp;
+[![GNN](https://img.shields.io/badge/GNN_Fraud_Detection-6366F1?style=flat-square)](https://gist.github.com/Siesher/60f18d6f3f6ee871827b467bf68016a7)
+
+</div>
+
+---
+
+#### WakaTime
 
 <!--START_SECTION:waka-->
-*🔮 Настройте WakaTime для отображения статистики кодинга*
 <!--END_SECTION:waka-->
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-### 📊 GitHub статистика
+---
 
 <div align="center">
 
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=Siesher&show_icons=true&bg_color=0D1117&title_color=818CF8&icon_color=C4B5FD&text_color=A5B4FC&border_color=312E81&hide_border=false&ring_color=818CF8&locale=ru"/>
-&nbsp;
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Siesher&layout=compact&bg_color=0D1117&title_color=818CF8&text_color=A5B4FC&border_color=312E81&hide_border=false&langs_count=8&locale=ru"/>
+<img height="155em" src="https://github-readme-stats.vercel.app/api?username=Siesher&show_icons=true&bg_color=0D1117&title_color=818CF8&icon_color=C4B5FD&text_color=A5B4FC&border_color=1E1B4B&hide_border=false&ring_color=818CF8&locale=ru&hide_title=true"/>
+&nbsp;&nbsp;
+<img height="155em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Siesher&layout=compact&bg_color=0D1117&title_color=818CF8&text_color=A5B4FC&border_color=1E1B4B&hide_border=false&langs_count=6&locale=ru&hide_title=true"/>
 
 <br><br>
 
-<img src="https://streak-stats.demolab.com/?user=Siesher&background=0D1117&ring=818CF8&fire=C4B5FD&currStreakLabel=A5B4FC&sideLabels=A5B4FC&currStreakNum=E0E7FF&sideNums=E0E7FF&dates=6366F1&border=312E81"/>
+<img src="https://streak-stats.demolab.com/?user=Siesher&background=0D1117&ring=818CF8&fire=C4B5FD&currStreakLabel=A5B4FC&sideLabels=A5B4FC&currStreakNum=E0E7FF&sideNums=E0E7FF&dates=6366F1&border=1E1B4B&hide_total_contributions=true"/>
 
 </div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-### 🗺️ 3D карта вкладов
-
-<div align="center">
-
-<img alt="3D Contribution Graph" src="./profile-3d-contrib/profile-night-rainbow.svg" />
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-### 📈 График активности
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Siesher&bg_color=0D1117&color=A5B4FC&line=818CF8&point=C4B5FD&area_color=312E81&area=true&hide_border=true"/>
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-<div align="center">
 
 <br>
 
-<img src="https://komarev.com/ghpvc/?username=Siesher&color=818CF8&style=for-the-badge&label=PROFILE+VIEWS"/>
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Siesher&bg_color=0D1117&color=A5B4FC&line=818CF8&point=C4B5FD&area_color=1E1B4B&area=true&hide_border=true&height=280"/>
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=Siesher&color=818CF8&style=flat-square&label=views"/>
 
 <br><br>
 
-*🌸 «Маги живут долго. И потому мы не торопимся — но каждое заклинание делаем совершенным.» 🌸*
-
-<br>
+*«Маги живут долго. И потому мы не торопимся — но каждое заклинание делаем совершенным.»*
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,50:818CF8,100:C4B5FD&height=100&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=0D1117&height=40&section=footer"/>
