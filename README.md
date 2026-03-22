@@ -83,7 +83,13 @@ class Siesher:
 ### ⏱️ WakaTime
 
 <!--START_SECTION:waka-->
-*🔮 Настройте WakaTime для отображения статистики кодинга*
+
+```txt
+From: 14 March 2026 - To: 21 March 2026
+
+No activity tracked
+```
+
 <!--END_SECTION:waka-->
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
