@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:C4B5FD,50:818CF8,100:6366F1&height=220&section=header&text=%E2%9C%A8%20Siesher%20%E2%9C%A8&fontSize=42&fontColor=E0E7FF&fontAlignY=35&desc=%D0%A1%D0%BE%D0%B1%D0%B8%D1%80%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%20%D0%B7%D0%B0%D0%BA%D0%BB%D0%B8%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9%20%7C%20Data%20Scientist&descSize=16&descColor=C4B5FD&descAlignY=55&animation=fadeIn"/>
+h<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:C4B5FD,50:818CF8,100:6366F1&height=220&section=header&text=%E2%9C%A8%20Siesher%20%E2%9C%A8&fontSize=42&fontColor=E0E7FF&fontAlignY=35&desc=%D0%A1%D0%BE%D0%B1%D0%B8%D1%80%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%20%D0%B7%D0%B0%D0%BA%D0%BB%D0%B8%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9%20%7C%20Data%20Scientist&descSize=16&descColor=C4B5FD&descAlignY=55&animation=fadeIn"/>
 
 <div align="center">
 
@@ -92,7 +92,7 @@ class Siesher:
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Siesher&theme=discord&no-bg=true&no-frame=true&column=7&margin-w=10"/>
+<img src="https://github-trophies.vercel.app/?username=Siesher&theme=discord&no-bg=true&no-frame=true&column=7&margin-w=10"/>
 
 </div>
 
