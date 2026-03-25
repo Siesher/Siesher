@@ -83,7 +83,17 @@ class Siesher:
 ### ⏱️ WakaTime
 
 <!--START_SECTION:waka-->
-*🔮 Настройте WakaTime для отображения статистики кодинга*
+
+```txt
+From: 17 March 2026 - To: 24 March 2026
+
+JSON          2 hrs 10 mins         ████████████▓░░░░░░░░░░░░   50.05 %
+Markdown      1 hr 16 mins          ███████▒░░░░░░░░░░░░░░░░░   29.15 %
+INI           23 mins               ██▒░░░░░░░░░░░░░░░░░░░░░░   09.10 %
+Python        21 mins               ██░░░░░░░░░░░░░░░░░░░░░░░   08.22 %
+Image (svg)   4 mins                ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.87 %
+```
+
 <!--END_SECTION:waka-->
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
