@@ -85,13 +85,13 @@ class Siesher:
 <!--START_SECTION:waka-->
 
 ```txt
-From: 10 April 2026 - To: 17 April 2026
+From: 11 April 2026 - To: 18 April 2026
 
-Python       7 hrs 25 mins         ██████████░░░░░░░░░░░░░░░   39.72 %
-Other        6 hrs 33 mins         ████████▓░░░░░░░░░░░░░░░░   35.12 %
-Markdown     1 hr 56 mins          ██▓░░░░░░░░░░░░░░░░░░░░░░   10.36 %
-Git          50 mins               █░░░░░░░░░░░░░░░░░░░░░░░░   04.51 %
-Lua          35 mins               ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.15 %
+Python       9 hrs 16 mins         ██████████▓░░░░░░░░░░░░░░   42.06 %
+Other        6 hrs 29 mins         ███████▒░░░░░░░░░░░░░░░░░   29.45 %
+Markdown     3 hrs 3 mins          ███▒░░░░░░░░░░░░░░░░░░░░░   13.86 %
+Git          50 mins               █░░░░░░░░░░░░░░░░░░░░░░░░   03.82 %
+Git Config   40 mins               ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.05 %
 ```
 
 <!--END_SECTION:waka-->
