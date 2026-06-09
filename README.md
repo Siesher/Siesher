@@ -40,12 +40,31 @@ class Siesher:
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
+### ⚔️ Гримуар: избранные заклинания
+
+<div align="center">
+
+| Заклинание | Суть | Магия |
+|:---|:---|:---|
+| 🔮 [**MIST**](https://github.com/Siesher/MIST) | Socratic multi-agent STEM tutor с RL-обученным Qwen3.5-9B | `Python` `FastAPI` `Next.js` `RL` |
+| 🧪 [**D-MeZO-N**](https://github.com/Siesher/dmezo) | Федеративный fine-tuning LLM **без backprop** — Nesterov-стабилизация, DP, мульти-сид валидация | `PyTorch` `ZO-optim` `DP` |
+| 🎮 [**SupCom LLM Bot**](https://github.com/Siesher/AI_For_Supreme_Com) | Локальная LLM-управляемая ИИ для Supreme Commander: FA — без API и интернета | `Qwen3.5` `Ollama` `C++` `Lua` |
+| 🏠 [**opencode-homelab**](https://github.com/Siesher/opencode-homelab) | Local-first AI coding agent stack со smart context routing | `llama.cpp` `MCP` `Qwen3.6` |
+| 🐉 [**Qwen3_LoRA_pet**](https://github.com/Siesher/Qwen3_LoRA_pet) | Fine-tuning Qwen3 с LoRA под кастомные задачи | `LoRA` `LLM` |
+| 🧠 [**Generator_for_reasoning**](https://github.com/Siesher/Generator_for_reasoning) | Генератор reasoning-данных для обучения LLM | `LLM` `Data Gen` |
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
 ### 📬 Связаться со мной
 
 <div align="center">
 
+[![Website](https://img.shields.io/badge/✦_Визитка-siesher.github.io-818CF8?style=for-the-badge)](https://siesher.github.io)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Siesher)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rmnfn1992@outlook.com)
+[![Email](https://img.shields.io/badge/✉️_Email-0078D4?style=for-the-badge)](mailto:rmnfn1992@outlook.com)
+[![HuggingFace](https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge)](https://huggingface.co/Siesher)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Siesher)
 
 </div>
