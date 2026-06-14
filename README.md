@@ -104,13 +104,13 @@ class Siesher:
 <!--START_SECTION:waka-->
 
 ```txt
-From: 05 June 2026 - To: 12 June 2026
+From: 06 June 2026 - To: 13 June 2026
 
-Python        14 hrs 17 mins        ███████████░░░░░░░░░░░░░░   43.56 %
-Markdown      8 hrs 15 mins         ██████▒░░░░░░░░░░░░░░░░░░   25.19 %
-Other         5 hrs 12 mins         ████░░░░░░░░░░░░░░░░░░░░░   15.86 %
-C++           1 hr 46 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.43 %
-JSON          34 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.77 %
+Python        11 hrs 29 mins        █████████▒░░░░░░░░░░░░░░░   37.31 %
+Markdown      9 hrs 38 mins         ███████▓░░░░░░░░░░░░░░░░░   31.31 %
+Other         4 hrs 14 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   13.75 %
+C++           2 hrs 5 mins          █▓░░░░░░░░░░░░░░░░░░░░░░░   06.81 %
+HTML          47 mins               ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.59 %
 ```
 
 <!--END_SECTION:waka-->
