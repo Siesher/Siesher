@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" role="img" aria-labelledby="title desc">
+  <title id="title">Siesher — Data Science &amp; Machine Learning</title>
+  <desc id="desc">A quiet lavender landscape, a mage's staff and slowly drifting stars. Inspired by Frieren.</desc>
+  <defs>
+    <radialGradient id="glow"><stop stop-color="#8b73ce" stop-opacity=".18"/><stop offset="1" stop-color="#8b73ce" stop-opacity="0"/></radialGradient>
+    <clipPath id="frame"><rect width="960" height="300" rx="18"/></clipPath>
+    <path id="star" d="M0-5 Q1-1 5 0 Q1 1 0 5 Q-1 1-5 0 Q-1-1 0-5Z"/>
+  </defs>
+  <style>
+    .drift { animation: drift 8s ease-in-out infinite; }
+    .twinkle { animation: twinkle 5s ease-in-out infinite; }
+    .late { animation-delay: -2.5s; }
+    .orbit { transform-origin: 772px 133px; animation: orbit 90s linear infinite; }
+    @keyframes drift { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+    @keyframes twinkle { 0%,100% { opacity: .3; } 50% { opacity: .9; } }
+    @keyframes orbit { to { transform: rotate(360deg); } }
+    @media (max-width: 600px) { .eyebrow { display: none; } .name { font-size: 96px; } .role { font-size: 28px; } .motto { font-size: 24px; } }
+    @media (prefers-reduced-motion: reduce) { .drift,.twinkle,.orbit { animation: none; } }
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="960" height="300" fill="#11121b"/>
+    <ellipse cx="772" cy="135" rx="228" ry="220" fill="url(#glow)"/>
+    <path d="M480 300 Q645 190 750 249 T1010 223 V300Z" fill="#1d1b2c"/>
+    <path d="M580 300 Q744 232 849 278 T1020 250 V300Z" fill="#252139"/>
+    <path d="M48 44 H78" stroke="#c4b5fd" stroke-width="2"/>
+    <text class="eyebrow" x="89" y="49" fill="#a5a2b9" font-family="Arial, sans-serif" font-size="12" letter-spacing="3">THE LONG WAY TO UNDERSTANDING</text>
+    <text class="name" x="46" y="143" fill="#eeecf7" font-family="Georgia, 'Times New Roman', serif" font-size="76" letter-spacing="-2">Siesher</text>
+    <text class="role" x="50" y="184" fill="#a5a2b9" font-family="Arial, sans-serif" font-size="20">Data Science &amp; Machine Learning</text>
+    <text class="motto" x="50" y="250" fill="#c4b5fd" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-style="italic">Collecting ideas, one spell at a time.</text>
+    <g fill="none" stroke="#353047">
+      <circle cx="772" cy="133" r="87"/>
+      <circle cx="772" cy="133" r="71" stroke-dasharray="2 12" class="orbit"/>
+      <path d="M675 133 H686 M858 133 H869 M772 36 V47 M772 219 V230"/>
+    </g>
+    <g class="drift">
+      <path d="M759 238 L786 113" stroke="#c4b5fd" stroke-width="4" stroke-linecap="round"/>
+      <path d="M779 121 C746 105 758 66 787 69 C812 71 820 101 799 117" fill="none" stroke="#c4b5fd" stroke-width="4" stroke-linecap="round"/>
+      <path d="M790 83 L800 99 L784 110 L774 95Z" fill="#c4b5fd" opacity=".8"/>
+      <path d="M769 177 Q746 165 752 148 Q767 151 769 177 M768 182 Q786 166 794 176 Q784 189 768 182" fill="#c4b5fd" opacity=".45"/>
+    </g>
+    <g fill="#c4b5fd">
+      <use href="#star" x="666" y="78" class="twinkle"/>
+      <use href="#star" x="862" y="186" class="twinkle late"/>
+      <use href="#star" x="883" y="55" class="twinkle"/>
+      <use href="#star" x="645" y="204" class="twinkle late"/>
+      <circle cx="700" cy="233" r="1.6" opacity=".55"/><circle cx="839" cy="87" r="1.3" opacity=".6"/>
+      <circle cx="617" cy="109" r="1.4" opacity=".4"/><circle cx="906" cy="133" r="1.5" opacity=".5"/>
+    </g>
+  </g>
+</svg>

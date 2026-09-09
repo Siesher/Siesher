@@ -1,190 +1,80 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:C4B5FD,50:818CF8,100:6366F1&height=220&section=header&text=%E2%9C%A8%20Siesher%20%E2%9C%A8&fontSize=42&fontColor=E0E7FF&fontAlignY=35&desc=%D0%A1%D0%BE%D0%B1%D0%B8%D1%80%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%20%D0%B7%D0%B0%D0%BA%D0%BB%D0%B8%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9%20%7C%20Data%20Scientist&descSize=16&descColor=C4B5FD&descAlignY=55&animation=fadeIn"/>
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1500&color=C4B5FD&center=true&vCenter=true&repeat=true&width=600&height=40&lines=%C2%AB%D0%AF+%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE+%D1%81%D0%BE%D0%B1%D0%B8%D1%80%D0%B0%D1%8E+%D0%B7%D0%B0%D0%BA%D0%BB%D0%B8%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F.+%D0%92%D0%BE%D1%82+%D0%B8+%D0%B2%D1%81%D1%91.%C2%BB+%E2%80%94+%D0%A4%D1%80%D0%B8%D1%80%D0%B5%D0%BD" alt="Frieren Quote" />
-
-<br>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&duration=3000&pause=1500&color=818CF8&center=true&vCenter=true&repeat=true&width=550&height=30&lines=Data+Scientist+%E2%9C%A6+ML%2FDL+Researcher+%E2%9C%A6+Student;Transformers+%E2%9C%A6+Graphs+%E2%9C%A6+LLM+%E2%9C%A6+NLP;Banking+%E2%9C%A6+Finance+%E2%9C%A6+Deep+Learning" alt="Roles" />
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-<div align="center">
-
-*🌸 Как Фрирен собирает заклинания тысячу лет — так я собираю модели, алгоритмы и данные. Каждый коммит — новое заклинание в гримуаре. 🌸*
-
-</div>
-
-<br>
-
-### 🏯 Обо мне
-
-```python
-class Siesher:
-    """A mage who collects spells across the vast lands of Data Science."""
-
-    def __init__(self):
-        self.name = "Maksim"
-        self.role = "Data Scientist"
-        self.domain = "Banking & Finance"
-        self.stack = ["Transformers", "Graph Neural Networks", "LLM", "NLP"]
-        self.project = "MIST — Math Intelligent Tutoring System"
-        self.education = "BMSTU (Bauman Moscow State Technical University)"
-
-    def philosophy(self):
-        return "The journey of 1000 years begins with a single commit"
-```
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-### ⚔️ Гримуар: избранные заклинания
-
-<div align="center">
-
-| Заклинание | Суть | Магия |
-|:---|:---|:---|
-| 🔮 [**MIST**](https://github.com/Siesher/MIST) | Socratic multi-agent STEM tutor с RL-обученным Qwen3.5-9B | `Python` `FastAPI` `Next.js` `RL` |
-| 🧪 [**D-MeZO-N**](https://github.com/Siesher/dmezo) | Федеративный fine-tuning LLM **без backprop** — Nesterov-стабилизация, DP, мульти-сид валидация | `PyTorch` `ZO-optim` `DP` |
-| 🎮 [**SupCom LLM Bot**](https://github.com/Siesher/AI_For_Supreme_Com) | Локальная LLM-управляемая ИИ для Supreme Commander: FA — без API и интернета | `Qwen3.5` `Ollama` `C++` `Lua` |
-| 🏠 [**opencode-homelab**](https://github.com/Siesher/opencode-homelab) | Local-first AI coding agent stack со smart context routing | `llama.cpp` `MCP` `Qwen3.6` |
-| 🐉 [**Qwen3_LoRA_pet**](https://github.com/Siesher/Qwen3_LoRA_pet) | Fine-tuning Qwen3 с LoRA под кастомные задачи | `LoRA` `LLM` |
-| 🧠 [**Generator_for_reasoning**](https://github.com/Siesher/Generator_for_reasoning) | Генератор reasoning-данных для обучения LLM | `LLM` `Data Gen` |
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-### 📬 Связаться со мной
-
-<div align="center">
-
-[![Website](https://img.shields.io/badge/✦_Визитка-siesher.github.io-818CF8?style=for-the-badge)](https://siesher.github.io)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Siesher)
-[![Email](https://img.shields.io/badge/✉️_Email-0078D4?style=for-the-badge)](mailto:rmnfn1992@outlook.com)
-[![HuggingFace](https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge)](https://huggingface.co/Siesher)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Siesher)
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-### 🛡️ Стек технологий
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=py,cpp,pytorch,tensorflow,sklearn,docker&theme=dark" />
-<br><br>
-<img src="https://skillicons.dev/icons?i=git,github,githubactions,linux,postgres,vscode&theme=dark" />
-<br><br>
-<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white"/>
-<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-### 📜 Gists
-
-<div align="center">
-
-[![LoRA Template](https://img.shields.io/badge/🔮_LoRA_Fine--tuning-Template-818CF8?style=for-the-badge)](https://gist.github.com/Siesher/fd31d015d96abb3d01856e4340dd247e)
-[![GNN Fraud](https://img.shields.io/badge/🛡️_GNN_Fraud-Detection-6366F1?style=for-the-badge)](https://gist.github.com/Siesher/60f18d6f3f6ee871827b467bf68016a7)
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-### ⏱️ WakaTime
-
-<!--START_SECTION:waka-->
-
-```txt
-From: 01 September 2026 - To: 08 September 2026
-
-No activity tracked
-```
-
-<!--END_SECTION:waka-->
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-### 🏆 Трофеи
-
-<div align="center">
-
-<img src="https://github-trophies.vercel.app/?username=Siesher&theme=discord&no-bg=true&no-frame=true&column=7&margin-w=10"/>
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-### 📊 GitHub статистика
-
-<div align="center">
-
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=Siesher&show_icons=true&bg_color=0D1117&title_color=818CF8&icon_color=C4B5FD&text_color=A5B4FC&border_color=312E81&hide_border=false&ring_color=818CF8&locale=ru"/>
-&nbsp;
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Siesher&layout=compact&bg_color=0D1117&title_color=818CF8&text_color=A5B4FC&border_color=312E81&hide_border=false&langs_count=8&locale=ru"/>
-
-<br><br>
-
-<img src="https://streak-stats.demolab.com/?user=Siesher&background=0D1117&ring=818CF8&fire=C4B5FD&currStreakLabel=A5B4FC&sideLabels=A5B4FC&currStreakNum=E0E7FF&sideNums=E0E7FF&dates=6366F1&border=312E81"/>
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-### 🐍 Snake
-
-<div align="center">
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Siesher/Siesher/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Siesher/Siesher/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/Siesher/Siesher/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
+  <img src="./assets/header-light.svg" width="100%" alt="Siesher — Data Science & Machine Learning. Collecting ideas, one spell at a time.">
 </picture>
 
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-### 🗺️ 3D карта вкладов
-
-<div align="center">
-
-<img alt="3D Contribution Graph" src="./profile-3d-contrib/profile-night-rainbow.svg" />
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-### 📈 График активности
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Siesher&bg_color=0D1117&color=A5B4FC&line=818CF8&point=C4B5FD&area_color=312E81&area=true&hide_border=true"/>
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-<div align="center">
+<p align="center">
+  <a href="https://siesher.github.io">Визитка</a> &nbsp; · &nbsp;
+  <a href="https://t.me/Siesher">Telegram</a> &nbsp; · &nbsp;
+  <a href="mailto:rmnfn1992@outlook.com">Email</a> &nbsp; · &nbsp;
+  <a href="https://huggingface.co/Siesher">Hugging&nbsp;Face</a>
+</p>
 
 <br>
 
-<img src="https://komarev.com/ghpvc/?username=Siesher&color=818CF8&style=for-the-badge&label=PROFILE+VIEWS"/>
+### Привет, я Максим
 
-<br><br>
+Data Scientist в банковской сфере и финансах, студент МГТУ им. Баумана.
+Исследую языковые модели и графовые нейросети, экспериментирую с обучением LLM и собираю локальные AI-инструменты.
 
-*🌸 «Маги живут долго. И потому мы не торопимся — но каждое заклинание делаем совершенным.» 🌸*
+Как Фрирен собирает заклинания, я собираю идеи — и проверяю их в коде.
 
 <br>
 
-</div>
+### Избранные проекты
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,50:818CF8,100:C4B5FD&height=100&section=footer"/>
+**[MITS](https://github.com/Siesher/MITS)** &nbsp; / &nbsp; AI для образования<br>
+Сократический STEM-тьютор: мультиагентная архитектура и языковая модель, обученная с RL.<br>
+<sub>Python · FastAPI · Next.js · Reinforcement learning</sub>
+
+**[D-MeZO-N](https://github.com/Siesher/dmezo)** &nbsp; / &nbsp; Исследования LLM<br>
+Децентрализованный fine-tuning без backprop: оптимизация нулевого порядка и дифференциальная приватность.<br>
+<sub>PyTorch · Federated learning · Zeroth-order optimization</sub>
+
+**[SupCom LLM Bot](https://github.com/Siesher/AI_For_Supreme_Com)** &nbsp; / &nbsp; AI в играх<br>
+Локальная языковая модель управляет ботом в Supreme Commander: Forged Alliance.<br>
+<sub>Qwen · Ollama · C++ · Lua</sub>
+
+**[opencode-homelab](https://github.com/Siesher/opencode-homelab)** &nbsp; / &nbsp; Инструменты<br>
+Локальный стек AI-разработки с маршрутизацией контекста и запуском моделей на своём железе.<br>
+<sub>OpenCode · llama.cpp · MCP</sub>
+
+<details>
+<summary>Ещё немного магии — эксперименты и заметки</summary>
+
+- [Qwen3 + LoRA](https://github.com/Siesher/Qwen3_LoRA_pet) — адаптация языковой модели под свои задачи.
+- [Generator for reasoning](https://github.com/Siesher/Generator_for_reasoning) — генерация данных для обучения рассуждению.
+- [LoRA template](https://gist.github.com/Siesher/fd31d015d96abb3d01856e4340dd247e) · [GNN fraud detection](https://gist.github.com/Siesher/60f18d6f3f6ee871827b467bf68016a7) — небольшие практические заготовки.
+
+</details>
+
+<br>
+
+### Рабочий набор
+
+**Модели** &nbsp; PyTorch · Transformers · scikit-learn · LoRA<br>
+**Данные** &nbsp; Python · Pandas · SQL · Graph ML<br>
+**Инструменты** &nbsp; Linux · Docker · Git · C++
+
+<br>
+
+### Путешествие продолжается
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Siesher/Siesher/output/github-snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/Siesher/Siesher/output/github-snake.svg" width="100%" alt="Анимация истории вкладов: лавандовая змейка собирает коммиты.">
+</picture>
+
+<details>
+<summary>Карта путешествия в 3D</summary>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-view.svg">
+  <img src="./profile-3d-contrib/profile-season.svg" width="100%" alt="Трёхмерная карта вкладов GitHub.">
+</picture>
+
+</details>
+
+<br>
+
+<p align="center"><sub>✦ &nbsp; Всегда найдётся ещё одно интересное заклинание.</sub></p>
