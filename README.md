@@ -1,60 +1,60 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
-  <img src="./assets/header-light.svg" width="100%" alt="Siesher — Data Science & Machine Learning. Collecting ideas, one spell at a time.">
+  <img src="./assets/header-light.svg" width="100%" alt="Siesher — Data Science. Парящий 3D-гримуар в стеклянной орбите: немного магии Фрирен, много любопытства.">
 </picture>
 
 <p align="center">
-  <a href="https://siesher.github.io">Визитка</a> &nbsp; · &nbsp;
+  <a href="https://siesher.github.io"><b>Визитка ↗</b></a> &nbsp; · &nbsp;
   <a href="https://t.me/Siesher">Telegram</a> &nbsp; · &nbsp;
-  <a href="mailto:rmnfn1992@outlook.com">Email</a> &nbsp; · &nbsp;
-  <a href="https://huggingface.co/Siesher">Hugging&nbsp;Face</a>
+  <a href="https://huggingface.co/Siesher">Hugging&nbsp;Face</a> &nbsp; · &nbsp;
+  <a href="mailto:rmnfn1992@outlook.com">Email</a>
 </p>
 
 <br>
 
-### Привет, я Максим
+**Привет, я Максим.** Data Scientist в банковской сфере и финансах, студент МГТУ им. Баумана.
+Исследую языковые модели и графовые нейросети, экспериментирую с обучением LLM и создаю локальные AI-инструменты.
 
-Data Scientist в банковской сфере и финансах, студент МГТУ им. Баумана.
-Исследую языковые модели и графовые нейросети, экспериментирую с обучением LLM и собираю локальные AI-инструменты.
-
-Как Фрирен собирает заклинания, я собираю идеи — и проверяю их в коде.
+<sub>Как Фрирен собирает заклинания, я собираю идеи — и проверяю их в коде.</sub>
 
 <br>
 
-### Избранные проекты
+### Избранные заклинания
 
-**[MITS](https://github.com/Siesher/MITS)** &nbsp; / &nbsp; AI для образования<br>
-Сократический STEM-тьютор: мультиагентная архитектура и языковая модель, обученная с RL.<br>
-<sub>Python · FastAPI · Next.js · Reinforcement learning</sub>
-
-**[D-MeZO-N](https://github.com/Siesher/dmezo)** &nbsp; / &nbsp; Исследования LLM<br>
-Децентрализованный fine-tuning без backprop: оптимизация нулевого порядка и дифференциальная приватность.<br>
-<sub>PyTorch · Federated learning · Zeroth-order optimization</sub>
-
-**[SupCom LLM Bot](https://github.com/Siesher/AI_For_Supreme_Com)** &nbsp; / &nbsp; AI в играх<br>
-Локальная языковая модель управляет ботом в Supreme Commander: Forged Alliance.<br>
-<sub>Qwen · Ollama · C++ · Lua</sub>
-
-**[opencode-homelab](https://github.com/Siesher/opencode-homelab)** &nbsp; / &nbsp; Инструменты<br>
-Локальный стек AI-разработки с маршрутизацией контекста и запуском моделей на своём железе.<br>
-<sub>OpenCode · llama.cpp · MCP</sub>
+<p>
+  <a href="https://github.com/Siesher/MITS"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/project-mits-dark.svg">
+    <img src="./assets/project-mits-light.svg" width="49%" alt="MITS — сократический STEM-тьютор с мультиагентной архитектурой. Python, FastAPI, RL.">
+  </picture></a>
+  <a href="https://github.com/Siesher/dmezo"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/project-dmezo-dark.svg">
+    <img src="./assets/project-dmezo-light.svg" width="49%" alt="D-MeZO-N — федеративный fine-tuning LLM без обратного прохода. PyTorch, zeroth-order optimization.">
+  </picture></a>
+  <a href="https://github.com/Siesher/AI_For_Supreme_Com"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/project-supcom-dark.svg">
+    <img src="./assets/project-supcom-light.svg" width="49%" alt="SupCom AI — локальная LLM управляет ботом в Supreme Commander. Qwen, C++, Lua.">
+  </picture></a>
+  <a href="https://github.com/Siesher/opencode-homelab"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/project-opencode-dark.svg">
+    <img src="./assets/project-opencode-light.svg" width="49%" alt="OpenCode homelab — AI-разработка и модели на своём железе. llama.cpp, MCP, Linux.">
+  </picture></a>
+</p>
 
 <details>
-<summary>Ещё немного магии — эксперименты и заметки</summary>
+<summary>Открыть остальные страницы гримуара</summary>
 
 - [Qwen3 + LoRA](https://github.com/Siesher/Qwen3_LoRA_pet) — адаптация языковой модели под свои задачи.
 - [Generator for reasoning](https://github.com/Siesher/Generator_for_reasoning) — генерация данных для обучения рассуждению.
-- [LoRA template](https://gist.github.com/Siesher/fd31d015d96abb3d01856e4340dd247e) · [GNN fraud detection](https://gist.github.com/Siesher/60f18d6f3f6ee871827b467bf68016a7) — небольшие практические заготовки.
+- [LoRA template](https://gist.github.com/Siesher/fd31d015d96abb3d01856e4340dd247e) · [GNN fraud detection](https://gist.github.com/Siesher/60f18d6f3f6ee871827b467bf68016a7) — практические заготовки.
 
 </details>
 
 <br>
 
-### Рабочий набор
+### Инструменты моей магии
 
-**Модели** &nbsp; PyTorch · Transformers · scikit-learn · LoRA<br>
-**Данные** &nbsp; Python · Pandas · SQL · Graph ML<br>
-**Инструменты** &nbsp; Linux · Docker · Git · C++
+`Python` `PyTorch` `Transformers` `scikit-learn` `LoRA`<br>
+`Pandas` `SQL` `Graph ML` `C++` `Linux` `Docker` `Git`
 
 <br>
 
@@ -62,11 +62,11 @@ Data Scientist в банковской сфере и финансах, студ�
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Siesher/Siesher/output/github-snake-dark.svg">
-  <img src="https://raw.githubusercontent.com/Siesher/Siesher/output/github-snake.svg" width="100%" alt="Анимация истории вкладов: лавандовая змейка собирает коммиты.">
+  <img src="https://raw.githubusercontent.com/Siesher/Siesher/output/github-snake.svg" width="100%" alt="Анимированная змейка собирает коммиты из истории вкладов GitHub.">
 </picture>
 
 <details>
-<summary>Карта путешествия в 3D</summary>
+<summary>Развернуть трёхмерную карту путешествия</summary>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-view.svg">

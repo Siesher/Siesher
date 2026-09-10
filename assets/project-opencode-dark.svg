@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="286" viewBox="0 0 480 286" role="img" aria-labelledby="title desc">
+<title id="title">OpenCode — ЛОКАЛЬНЫЕ ИНСТРУМЕНТЫ</title><desc id="desc">AI-разработка и модели на собственном железе. llama.cpp / MCP / Linux</desc>
+<defs>
+  <linearGradient id="surface" x2="1" y2="1"><stop stop-color="#171621"/><stop offset="1" stop-color="#242133"/></linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f4f0ff" stop-opacity=".85"/><stop offset=".45" stop-color="#c4b0ff" stop-opacity=".6"/><stop offset="1" stop-color="#8661d5" stop-opacity=".15"/></linearGradient>
+  <linearGradient id="metal" x2="1" y2="1"><stop stop-color="#f4f0ff"/><stop offset=".3" stop-color="#c4b0ff"/><stop offset=".5" stop-color="#242133"/><stop offset=".72" stop-color="#f4f0ff"/><stop offset="1" stop-color="#c4b0ff"/></linearGradient>
+  <radialGradient id="sphere" cx="30%" cy="25%"><stop stop-color="#fff"/><stop offset=".28" stop-color="#c4b0ff"/><stop offset=".8" stop-color="#8661d5"/><stop offset="1" stop-color="#242133"/></radialGradient>
+  <radialGradient id="halo"><stop stop-color="#8661d5" stop-opacity=".3"/><stop offset="1" stop-color="#8661d5" stop-opacity="0"/></radialGradient>
+</defs>
+<style>
+.object{animation:float 6s ease-in-out infinite;animation-delay:-04s}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@media(max-width:300px){.description,.category,.stack{display:none} .heading{font-size:48px} .number{font-size:25px} }
+@media(prefers-reduced-motion:reduce){.object{animation:none}}
+</style>
+<rect x="5" y="8" width="470" height="276" rx="22" fill="#101018"/>
+<rect x="1" y="1" width="478" height="276" rx="22" fill="url(#surface)" stroke="#393246"/>
+<path d="M25 2 H455" stroke="#f4f0ff" stroke-opacity=".2"/>
+<ellipse cx="352" cy="82" rx="120" ry="80" fill="url(#halo)"/>
+<g class="object"><g transform="translate(355 77)"><g transform="translate(0 25)"><path d="M0-39 56-10 0 20-56-10Z" fill="url(#glass)" stroke="#c4b0ff" stroke-opacity=".5"/></g><g transform="translate(0 4)"><path d="M0-39 56-10 0 20-56-10Z" fill="url(#metal)" opacity=".8"/></g><g transform="translate(0 -18)"><path d="M0-39 56-10 0 20-56-10Z" fill="url(#glass)" stroke="#f4f0ff" stroke-opacity=".5"/></g></g></g>
+<g font-family="Arial, Helvetica, sans-serif">
+  <text class="number" x="27" y="41" font-size="14" fill="#c4b0ff" letter-spacing="2">04 /</text>
+  <text class="category" x="27" y="87" font-size="11" fill="#aaa4be" letter-spacing="1.5">ЛОКАЛЬНЫЕ ИНСТРУМЕНТЫ</text>
+  <text class="heading" x="25" y="143" font-size="39" fill="#f4f0ff" font-weight="700" letter-spacing="-1.3">OpenCode</text>
+  <g class="description" fill="#aaa4be" font-size="19"><text x="27" y="181">AI-разработка и модели</text><text x="27" y="207">на собственном железе.</text></g>
+  <path d="M27 231 H452" stroke="#393246"/>
+  <text class="stack" x="27" y="256" fill="#c4b0ff" font-size="12" letter-spacing=".5">llama.cpp / MCP / Linux</text>
+  <path d="M428 254 444 238 M430 238H444V252" fill="none" stroke="#c4b0ff" stroke-width="1.5"/>
+</g></svg>
