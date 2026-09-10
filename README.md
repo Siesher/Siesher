@@ -22,22 +22,10 @@
 ### Избранные заклинания
 
 <p>
-  <a href="https://github.com/Siesher/MITS"><picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/project-mits-dark.svg">
-    <img src="./assets/project-mits-light.svg" width="49%" alt="MITS — сократический STEM-тьютор с мультиагентной архитектурой. Python, FastAPI, RL.">
-  </picture></a>
-  <a href="https://github.com/Siesher/dmezo"><picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/project-dmezo-dark.svg">
-    <img src="./assets/project-dmezo-light.svg" width="49%" alt="D-MeZO-N — федеративный fine-tuning LLM без обратного прохода. PyTorch, zeroth-order optimization.">
-  </picture></a>
-  <a href="https://github.com/Siesher/AI_For_Supreme_Com"><picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/project-supcom-dark.svg">
-    <img src="./assets/project-supcom-light.svg" width="49%" alt="SupCom AI — локальная LLM управляет ботом в Supreme Commander. Qwen, C++, Lua.">
-  </picture></a>
-  <a href="https://github.com/Siesher/opencode-homelab"><picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/project-opencode-dark.svg">
-    <img src="./assets/project-opencode-light.svg" width="49%" alt="OpenCode homelab — AI-разработка и модели на своём железе. llama.cpp, MCP, Linux.">
-  </picture></a>
+  <a href="https://github.com/Siesher/MITS"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-mits-dark.svg"><img src="./assets/project-mits-light.svg" width="49%" alt="MITS — сократический STEM-тьютор с мультиагентной архитектурой. Python, FastAPI, RL."></picture></a>
+  <a href="https://github.com/Siesher/dmezo"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-dmezo-dark.svg"><img src="./assets/project-dmezo-light.svg" width="49%" alt="D-MeZO-N — федеративный fine-tuning LLM без обратного прохода. PyTorch, zeroth-order optimization."></picture></a>
+  <a href="https://github.com/Siesher/AI_For_Supreme_Com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-supcom-dark.svg"><img src="./assets/project-supcom-light.svg" width="49%" alt="SupCom AI — локальная LLM управляет ботом в Supreme Commander. Qwen, C++, Lua."></picture></a>
+  <a href="https://github.com/Siesher/opencode-homelab"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-opencode-dark.svg"><img src="./assets/project-opencode-light.svg" width="49%" alt="OpenCode homelab — AI-разработка и модели на своём железе. llama.cpp, MCP, Linux."></picture></a>
 </p>
 
 <details>
