@@ -7,75 +7,77 @@ ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / 'assets'
 ART = base64.b64encode((ASSETS / 'grimoire-3d.png').read_bytes()).decode()
 PALETTES = {
-    'dark': dict(bg='#101018', panel='#171621', panel2='#242133', ink='#f4f0ff', muted='#aaa4be', accent='#c4b0ff', line='#393246', glow='#8661d5', tint='#252033', chip='#242030'),
-    'light': dict(bg='#f6f4fb', panel='#ffffff', panel2='#e6dff2', ink='#302640', muted='#786d88', accent='#7853b4', line='#dfd5ed', glow='#b49add', tint='#ece4f7', chip='#eee7f7'),
+    'dark': dict(bg='#14131a', panel='#171621', panel2='#242133', ink='#f4f0ff', muted='#aaa4be', accent='#c4b0ff', line='#393246', glow='#8661d5', tint='#252033', chip='#242030'),
+    'light': dict(bg='#f5f3ef', panel='#ffffff', panel2='#e6dff2', ink='#302640', muted='#786d88', accent='#7853b4', line='#dfd5ed', glow='#b49add', tint='#eee9f1', chip='#eee7f7'),
 }
 
 for theme, p in PALETTES.items():
-    hero = '''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="580" viewBox="0 0 1200 580" role="img" aria-labelledby="title desc">
-<title id="title">Siesher — Data Science, LLMs &amp; a little magic</title>
+    hero = '''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+<title id="title">Maksim / Siesher — Data Scientist &amp; ML Engineer</title>
 <desc id="desc">An animated three-dimensional silver grimoire in a lavender glass orbit. Inspired by Frieren.</desc>
 <defs>
   <linearGradient id="backdrop" x2="1" y2="1"><stop stop-color="{bg}"/><stop offset="1" stop-color="{tint}"/></linearGradient>
   <radialGradient id="aura"><stop stop-color="{glow}" stop-opacity=".42"/><stop offset="1" stop-color="{glow}" stop-opacity="0"/></radialGradient>
   <radialGradient id="floor"><stop stop-color="{glow}" stop-opacity=".28"/><stop offset="1" stop-color="{glow}" stop-opacity="0"/></radialGradient>
   <linearGradient id="rim"><stop stop-color="{line}"/><stop offset=".5" stop-color="{accent}" stop-opacity=".7"/><stop offset="1" stop-color="{line}"/></linearGradient>
-  <clipPath id="frame"><rect x="1" y="1" width="1198" height="578" rx="28"/></clipPath>
+  <clipPath id="frame"><rect x="1" y="1" width="1198" height="438" rx="28"/></clipPath>
+  <g id="blueflower"><g fill="#93b8d2"><ellipse cy="-8" rx="5" ry="10"/><ellipse cy="-8" rx="5" ry="10" transform="rotate(72)"/><ellipse cy="-8" rx="5" ry="10" transform="rotate(144)"/><ellipse cy="-8" rx="5" ry="10" transform="rotate(216)"/><ellipse cy="-8" rx="5" ry="10" transform="rotate(288)"/></g><circle r="3" fill="#d8c497"/></g>
   <path id="star" d="M0-7 Q1.5-1.5 7 0 Q1.5 1.5 0 7 Q-1.5 1.5-7 0 Q-1.5-1.5 0-7Z"/>
 </defs>
 <style>
-  .art {{ animation: levitate 7s ease-in-out infinite; transform-origin: 885px 295px; }}
-  .shadow {{ animation: breathe 7s ease-in-out infinite; transform-origin: 900px 500px; }}
+  .art {{ animation: levitate 7s ease-in-out infinite; transform-origin: 920px 220px; }}
+  .shadow {{ animation: breathe 7s ease-in-out infinite; transform-origin: 935px 378px; }}
   .spark {{ animation: shimmer 4s ease-in-out infinite; }} .late {{ animation-delay: -2s; }}
   @keyframes levitate {{ 0%,100% {{ transform: translateY(3px) rotate(-1deg); }} 50% {{ transform: translateY(-11px) rotate(1deg); }} }}
   @keyframes breathe {{ 0%,100% {{ opacity: .75; transform: scaleX(1); }} 50% {{ opacity: .4; transform: scaleX(.86); }} }}
   @keyframes shimmer {{ 0%,100% {{ opacity: .25; }} 50% {{ opacity: .9; }} }}
-  @media(max-width:600px) {{ .eyebrow,.note,.folio {{ display:none; }} .name {{ font-size:144px; }} .role {{ font-size:36px; }} .tagline {{ font-size:27px; }} }}
+  @media(max-width:600px) {{ .eyebrow,.note,.folio {{ display:none; }} .name {{ font-size:114px; }} .role {{ font-size:30px; }} .tagline {{ font-size:24px; }} }}
   @media(prefers-reduced-motion:reduce) {{ .art,.shadow,.spark {{ animation:none; }} }}
 </style>
 <g clip-path="url(#frame)">
-  <rect width="1200" height="580" fill="url(#backdrop)"/>
-  <ellipse cx="925" cy="282" rx="350" ry="330" fill="url(#aura)"/>
+  <rect width="1200" height="440" fill="url(#backdrop)"/>
+  <ellipse cx="935" cy="214" rx="325" ry="245" fill="url(#aura)"/>
   <g fill="none" stroke="{line}" opacity=".65">
-    <ellipse cx="900" cy="492" rx="340" ry="83"/><ellipse cx="900" cy="492" rx="266" ry="56"/>
-    <path d="M574 492 H1230 M900 409 V579"/>
+    <ellipse cx="935" cy="378" rx="270" ry="58"/><ellipse cx="935" cy="378" rx="220" ry="37"/>
+    <path d="M665 378 H1205 M935 320 V441"/>
   </g>
-  <ellipse class="shadow" cx="900" cy="503" rx="245" ry="43" fill="url(#floor)"/>
+  <ellipse class="shadow" cx="935" cy="389" rx="215" ry="28" fill="url(#floor)"/>
   <g font-family="Arial, Helvetica, sans-serif">
     <circle cx="53" cy="51" r="4" fill="{accent}"/>
-    <text class="eyebrow" x="69" y="56" font-size="13" letter-spacing="2.7" fill="{muted}">MAKSIM / DATA SCIENCE</text>
-    <text class="folio" x="1144" y="56" font-size="12" letter-spacing="2" text-anchor="end" fill="{muted}">A PERSONAL SPELLBOOK</text>
-    <text class="name" x="46" y="252" font-size="132" font-weight="700" letter-spacing="-8" fill="{ink}">Siesher<tspan fill="{accent}">.</tspan></text>
-    <text class="role" x="54" y="310" font-size="33" letter-spacing="-.5" fill="{ink}">Data, models &amp; a little magic.</text>
-    <text class="tagline" x="54" y="364" font-size="23" fill="{muted}">Большие идеи. Маленькие заклинания.</text>
+    <text class="eyebrow" x="69" y="56" font-size="13" letter-spacing="2.7" fill="{muted}">MAKSIM / SIESHER</text>
+    <text class="folio" x="1144" y="56" font-size="12" letter-spacing="2" text-anchor="end" fill="{muted}">DATA SCIENCE &amp; ML</text>
+    <text class="name" x="46" y="192" font-size="106" font-weight="700" letter-spacing="-6" fill="{ink}">Siesher<tspan fill="{accent}">.</tspan></text>
+    <text class="role" x="54" y="244" font-size="28" letter-spacing="-.5" fill="{ink}">Data Scientist / ML Engineer</text>
+    <text class="tagline" x="54" y="283" font-size="21" fill="{muted}">Данные. Языковые модели. AI-системы.</text>
     <g class="note">
-      <rect x="54" y="432" width="73" height="32" rx="16" fill="{chip}" stroke="{line}"/>
-      <rect x="136" y="432" width="103" height="32" rx="16" fill="{chip}" stroke="{line}"/>
-      <rect x="248" y="432" width="113" height="32" rx="16" fill="{chip}" stroke="{line}"/>
-      <text x="90" y="453" text-anchor="middle" fill="{accent}" font-size="12">LLMs</text>
-      <text x="187" y="453" text-anchor="middle" fill="{accent}" font-size="12">Graph ML</text>
-      <text x="304" y="453" text-anchor="middle" fill="{accent}" font-size="12">Local AI</text>
+      <rect x="54" y="322" width="73" height="32" rx="16" fill="{chip}" stroke="{line}"/>
+      <rect x="136" y="322" width="103" height="32" rx="16" fill="{chip}" stroke="{line}"/>
+      <rect x="248" y="322" width="113" height="32" rx="16" fill="{chip}" stroke="{line}"/>
+      <text x="90" y="343" text-anchor="middle" fill="{accent}" font-size="12">LLMs</text>
+      <text x="187" y="343" text-anchor="middle" fill="{accent}" font-size="12">Graph ML</text>
+      <text x="304" y="343" text-anchor="middle" fill="{accent}" font-size="12">Local AI</text>
     </g>
-    <text class="note" x="54" y="532" fill="{muted}" font-size="13" letter-spacing=".5">Inspired by Frieren. Driven by curiosity.</text>
+    <text class="note" x="54" y="405" fill="{muted}" font-size="13" letter-spacing=".5">Inspired by Frieren. Built through research.</text>
   </g>
-  <image class="art" x="632" y="80" width="548" height="458" preserveAspectRatio="xMidYMid meet" xlink:href="data:image/png;base64,{art}"/>
+  <image class="art" x="726" y="55" width="435" height="339" preserveAspectRatio="xMidYMid meet" xlink:href="data:image/png;base64,{art}"/>
+  <g opacity=".9"><path d="M697 416Q707 389 692 368M700 404Q720 385 727 378" fill="none" stroke="#93a99a" stroke-width="1.3"/><use xlink:href="#blueflower" transform="translate(692 366) rotate(-15)"/><use xlink:href="#blueflower" transform="translate(728 377) scale(.7) rotate(15)"/></g>
   <g fill="{accent}">
-    <use xlink:href="#star" x="688" y="153" class="spark"/>
-    <use xlink:href="#star" x="1110" y="401" class="spark late"/>
+    <use xlink:href="#star" x="780" y="113" class="spark"/>
+    <use xlink:href="#star" x="1120" y="319" class="spark late"/>
     <circle cx="1045" cy="112" r="2" class="spark"/>
-    <circle cx="663" cy="412" r="2" class="spark late"/>
+    <circle cx="728" cy="302" r="2" class="spark late"/>
   </g>
 </g>
-<rect x="1" y="1" width="1198" height="578" rx="28" fill="none" stroke="url(#rim)"/>
+<rect x="1" y="1" width="1198" height="438" rx="28" fill="none" stroke="url(#rim)"/>
 </svg>
 '''.format(**p, art=ART)
     (ASSETS / f'header-{theme}.svg').write_text(hero)
 
     projects = [
-        ('mits', '01', 'MITS', 'AI ДЛЯ ОБРАЗОВАНИЯ', 'Сократический STEM-тьютор', 'с мультиагентной архитектурой.', 'Python / FastAPI / RL', 'book'),
+        ('mits', '01', 'MITS', 'AI ДЛЯ ОБРАЗОВАНИЯ', 'Сократический STEM-тьютор', 'с мультиагентной архитектурой.', 'Qwen3.5 / FastAPI / RL', 'book'),
         ('dmezo', '02', 'D-MeZO-N', 'ИССЛЕДОВАНИЯ LLM', 'Федеративный fine-tuning', 'без обратного прохода.', 'PyTorch / ZO optimization', 'orbit'),
-        ('supcom', '03', 'SupCom AI', 'AI В ИГРАХ', 'Локальная LLM за штурвалом', 'Supreme Commander.', 'Qwen / C++ / Lua', 'cube'),
-        ('opencode', '04', 'OpenCode', 'ЛОКАЛЬНЫЕ ИНСТРУМЕНТЫ', 'AI-разработка и модели', 'на собственном железе.', 'llama.cpp / MCP / Linux', 'layers'),
+        ('supcom', '03', 'SupCom AI', 'ПРИКЛАДНЫЕ AI-СИСТЕМЫ', 'LLM-стратегия, Lua-рефлексы', 'и C++ мост к игровому движку.', 'Qwen / C++ / Lua', 'cube'),
+        ('opencode', '04', 'OpenCode', 'ЛОКАЛЬНЫЕ ИНСТРУМЕНТЫ', 'AI-разработка и модели', 'на собственном железе.', 'llama.cpp / MCP / Routing', 'layers'),
     ]
     # Native interface ornaments use gradients and extruded geometry, not external icon services.
     ornaments = {

@@ -13,7 +13,7 @@
 @media(max-width:300px){.description,.category,.stack{display:none} .heading{font-size:48px} .number{font-size:25px} }
 @media(prefers-reduced-motion:reduce){.object{animation:none}}
 </style>
-<rect x="5" y="8" width="470" height="276" rx="22" fill="#f6f4fb"/>
+<rect x="5" y="8" width="470" height="276" rx="22" fill="#f5f3ef"/>
 <rect x="1" y="1" width="478" height="276" rx="22" fill="url(#surface)" stroke="#dfd5ed"/>
 <path d="M25 2 H455" stroke="#302640" stroke-opacity=".2"/>
 <ellipse cx="352" cy="82" rx="120" ry="80" fill="url(#halo)"/>
