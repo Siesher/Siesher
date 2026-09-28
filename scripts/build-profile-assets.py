@@ -1,18 +1,41 @@
 """Build self-contained GitHub-compatible SVG layouts around the original 3D art."""
-from pathlib import Path
+
 import base64
 from html import escape
+from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-ASSETS = ROOT / 'assets'
-ART = base64.b64encode((ASSETS / 'grimoire-3d.png').read_bytes()).decode()
+ASSETS = ROOT / "assets"
+ART = base64.b64encode((ASSETS / "grimoire-profile-v2.png").read_bytes()).decode()
 PALETTES = {
-    'dark': dict(bg='#14131a', panel='#171621', panel2='#242133', ink='#f4f0ff', muted='#aaa4be', accent='#c4b0ff', line='#393246', glow='#8661d5', tint='#252033', chip='#242030'),
-    'light': dict(bg='#f5f3ef', panel='#ffffff', panel2='#e6dff2', ink='#302640', muted='#786d88', accent='#7853b4', line='#dfd5ed', glow='#b49add', tint='#eee9f1', chip='#eee7f7'),
+    "dark": {
+        "bg": "#14131a",
+        "panel": "#171621",
+        "panel2": "#242133",
+        "ink": "#f4f0ff",
+        "muted": "#aaa4be",
+        "accent": "#c4b0ff",
+        "line": "#393246",
+        "glow": "#8661d5",
+        "tint": "#252033",
+        "chip": "#242030",
+    },
+    "light": {
+        "bg": "#f5f3ef",
+        "panel": "#ffffff",
+        "panel2": "#e6dff2",
+        "ink": "#302640",
+        "muted": "#786d88",
+        "accent": "#7853b4",
+        "line": "#dfd5ed",
+        "glow": "#b49add",
+        "tint": "#eee9f1",
+        "chip": "#eee7f7",
+    },
 }
 
 for theme, p in PALETTES.items():
-    hero = '''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+    hero = """<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
 <title id="title">Maksim / Siesher — Data Scientist &amp; ML Engineer</title>
 <desc id="desc">An animated three-dimensional silver grimoire in a lavender glass orbit. Inspired by Frieren.</desc>
 <defs>
@@ -59,7 +82,7 @@ for theme, p in PALETTES.items():
     </g>
     <text class="note" x="54" y="405" fill="{muted}" font-size="13" letter-spacing=".5">Inspired by Frieren. Built through research.</text>
   </g>
-  <image class="art" x="726" y="55" width="435" height="339" preserveAspectRatio="xMidYMid meet" xlink:href="data:image/png;base64,{art}"/>
+  <image class="art" x="706" y="18" width="500" height="400" preserveAspectRatio="xMidYMid meet" xlink:href="data:image/png;base64,{art}"/>
   <g opacity=".9"><path d="M697 416Q707 389 692 368M700 404Q720 385 727 378" fill="none" stroke="#93a99a" stroke-width="1.3"/><use xlink:href="#blueflower" transform="translate(692 366) rotate(-15)"/><use xlink:href="#blueflower" transform="translate(728 377) scale(.7) rotate(15)"/></g>
   <g fill="{accent}">
     <use xlink:href="#star" x="780" y="113" class="spark"/>
@@ -70,24 +93,60 @@ for theme, p in PALETTES.items():
 </g>
 <rect x="1" y="1" width="1198" height="438" rx="28" fill="none" stroke="url(#rim)"/>
 </svg>
-'''.format(**p, art=ART)
-    (ASSETS / f'header-{theme}.svg').write_text(hero)
+""".format(**p, art=ART)
+    (ASSETS / f"header-{theme}.svg").write_text(hero)
 
     projects = [
-        ('mits', '01', 'MITS', 'AI ДЛЯ ОБРАЗОВАНИЯ', 'Сократический STEM-тьютор', 'с мультиагентной архитектурой.', 'Qwen3.5 / FastAPI / RL', 'book'),
-        ('dmezo', '02', 'D-MeZO-N', 'ИССЛЕДОВАНИЯ LLM', 'Федеративный fine-tuning', 'без обратного прохода.', 'PyTorch / ZO optimization', 'orbit'),
-        ('supcom', '03', 'SupCom AI', 'ПРИКЛАДНЫЕ AI-СИСТЕМЫ', 'LLM-стратегия, Lua-рефлексы', 'и C++ мост к игровому движку.', 'Qwen / C++ / Lua', 'cube'),
-        ('opencode', '04', 'OpenCode', 'ЛОКАЛЬНЫЕ ИНСТРУМЕНТЫ', 'AI-разработка и модели', 'на собственном железе.', 'llama.cpp / MCP / Routing', 'layers'),
+        (
+            "mits",
+            "01",
+            "MITS",
+            "AI ДЛЯ ОБРАЗОВАНИЯ",
+            "Сократический STEM-тьютор",
+            "с мультиагентной архитектурой.",
+            "Qwen3.5 / FastAPI / RL",
+            "book",
+        ),
+        (
+            "dmezo",
+            "02",
+            "D-MeZO-N",
+            "ИССЛЕДОВАНИЯ LLM",
+            "Федеративный fine-tuning",
+            "без обратного прохода.",
+            "PyTorch / ZO optimization",
+            "orbit",
+        ),
+        (
+            "supcom",
+            "03",
+            "SupCom AI",
+            "ПРИКЛАДНЫЕ AI-СИСТЕМЫ",
+            "LLM-стратегия, Lua-рефлексы",
+            "и C++ мост к игровому движку.",
+            "Qwen / C++ / Lua",
+            "cube",
+        ),
+        (
+            "opencode",
+            "04",
+            "OpenCode",
+            "ЛОКАЛЬНЫЕ ИНСТРУМЕНТЫ",
+            "AI-разработка и модели",
+            "на собственном железе.",
+            "llama.cpp / MCP / Routing",
+            "layers",
+        ),
     ]
     # Native interface ornaments use gradients and extruded geometry, not external icon services.
     ornaments = {
-        'book': '<g transform="translate(352 74) rotate(-15)"><path d="M-44-27 L0-15 0 39-44 26Z" fill="url(#glass)"/><path d="M0-15 L44-27 44 26 0 39Z" fill="url(#metal)"/><path d="M-44 26 L0 39 44 26 44 33 0 46-44 33Z" fill="{accent}" opacity=".5"/><path d="M0-15 V39 M-35-14-9-7 M-35-3-9 4 M9-7 35-14 M9 4 35-3" stroke="{ink}" opacity=".5" fill="none"/></g>',
-        'orbit': '<g transform="translate(355 74)"><circle r="27" fill="url(#sphere)"/><ellipse rx="61" ry="21" transform="rotate(-32)" fill="none" stroke="url(#metal)" stroke-width="9"/><circle cx="-49" cy="22" r="11" fill="url(#sphere)"/><circle cx="48" cy="-35" r="7" fill="url(#sphere)"/></g>',
-        'cube': '<g transform="translate(355 72)"><path d="M0-44 43-20 0 6-43-20Z" fill="url(#metal)"/><path d="M-43-20 0 6 0 53-43 28Z" fill="url(#glass)"/><path d="M0 6 43-20 43 28 0 53Z" fill="{accent}" opacity=".5"/><path d="M0-44 43-20 43 28 0 53-43 28-43-20Z M-43-20 0 6 43-20 M0 6V53" fill="none" stroke="{ink}" stroke-opacity=".4"/><path d="M-25 1-13 8-25 16" fill="none" stroke="{ink}" stroke-width="3"/></g>',
-        'layers': '<g transform="translate(355 77)"><g transform="translate(0 25)"><path d="M0-39 56-10 0 20-56-10Z" fill="url(#glass)" stroke="{accent}" stroke-opacity=".5"/></g><g transform="translate(0 4)"><path d="M0-39 56-10 0 20-56-10Z" fill="url(#metal)" opacity=".8"/></g><g transform="translate(0 -18)"><path d="M0-39 56-10 0 20-56-10Z" fill="url(#glass)" stroke="{ink}" stroke-opacity=".5"/></g></g>',
+        "book": '<g transform="translate(352 74) rotate(-15)"><path d="M-44-27 L0-15 0 39-44 26Z" fill="url(#glass)"/><path d="M0-15 L44-27 44 26 0 39Z" fill="url(#metal)"/><path d="M-44 26 L0 39 44 26 44 33 0 46-44 33Z" fill="{accent}" opacity=".5"/><path d="M0-15 V39 M-35-14-9-7 M-35-3-9 4 M9-7 35-14 M9 4 35-3" stroke="{ink}" opacity=".5" fill="none"/></g>',
+        "orbit": '<g transform="translate(355 74)"><circle r="27" fill="url(#sphere)"/><ellipse rx="61" ry="21" transform="rotate(-32)" fill="none" stroke="url(#metal)" stroke-width="9"/><circle cx="-49" cy="22" r="11" fill="url(#sphere)"/><circle cx="48" cy="-35" r="7" fill="url(#sphere)"/></g>',
+        "cube": '<g transform="translate(355 72)"><path d="M0-44 43-20 0 6-43-20Z" fill="url(#metal)"/><path d="M-43-20 0 6 0 53-43 28Z" fill="url(#glass)"/><path d="M0 6 43-20 43 28 0 53Z" fill="{accent}" opacity=".5"/><path d="M0-44 43-20 43 28 0 53-43 28-43-20Z M-43-20 0 6 43-20 M0 6V53" fill="none" stroke="{ink}" stroke-opacity=".4"/><path d="M-25 1-13 8-25 16" fill="none" stroke="{ink}" stroke-width="3"/></g>',
+        "layers": '<g transform="translate(355 77)"><g transform="translate(0 25)"><path d="M0-39 56-10 0 20-56-10Z" fill="url(#glass)" stroke="{accent}" stroke-opacity=".5"/></g><g transform="translate(0 4)"><path d="M0-39 56-10 0 20-56-10Z" fill="url(#metal)" opacity=".8"/></g><g transform="translate(0 -18)"><path d="M0-39 56-10 0 20-56-10Z" fill="url(#glass)" stroke="{ink}" stroke-opacity=".5"/></g></g>',
     }
     for slug, num, title, category, line1, line2, stack, ornament in projects:
-        card = '''<svg xmlns="http://www.w3.org/2000/svg" width="480" height="286" viewBox="0 0 480 286" role="img" aria-labelledby="title desc">
+        card = """<svg xmlns="http://www.w3.org/2000/svg" width="640" height="256" viewBox="0 0 640 256" role="img" aria-labelledby="title desc">
 <title id="title">{title} — {category}</title><desc id="desc">{line1} {line2} {stack}</desc>
 <defs>
   <linearGradient id="surface" x2="1" y2="1"><stop stop-color="{panel}"/><stop offset="1" stop-color="{panel2}"/></linearGradient>
@@ -99,24 +158,30 @@ for theme, p in PALETTES.items():
 <style>
 .object{{animation:float 6s ease-in-out infinite;animation-delay:-{num}s}}
 @keyframes float{{0%,100%{{transform:translateY(0)}}50%{{transform:translateY(-5px)}}}}
-@media(max-width:300px){{.description,.category,.stack{{display:none}} .heading{{font-size:48px}} .number{{font-size:25px}} }}
 @media(prefers-reduced-motion:reduce){{.object{{animation:none}}}}
 </style>
-<rect x="5" y="8" width="470" height="276" rx="22" fill="{bg}"/>
-<rect x="1" y="1" width="478" height="276" rx="22" fill="url(#surface)" stroke="{line}"/>
-<path d="M25 2 H455" stroke="{ink}" stroke-opacity=".2"/>
-<ellipse cx="352" cy="82" rx="120" ry="80" fill="url(#halo)"/>
-<g class="object">{ornament}</g>
+<rect x="5" y="8" width="630" height="243" rx="22" fill="{bg}"/>
+<rect x="1" y="1" width="638" height="243" rx="22" fill="url(#surface)" stroke="{line}"/>
+<path d="M27 2 H613" stroke="{ink}" stroke-opacity=".2"/>
+<ellipse cx="525" cy="112" rx="112" ry="106" fill="url(#halo)"/>
+<g transform="translate(99 25) scale(1.2)"><g class="object">{ornament}</g></g>
 <g font-family="Arial, Helvetica, sans-serif">
-  <text class="number" x="27" y="41" font-size="14" fill="{accent}" letter-spacing="2">{num} /</text>
-  <text class="category" x="27" y="87" font-size="11" fill="{muted}" letter-spacing="1.5">{category}</text>
-  <text class="heading" x="25" y="143" font-size="39" fill="{ink}" font-weight="700" letter-spacing="-1.3">{title}</text>
-  <g class="description" fill="{muted}" font-size="19"><text x="27" y="181">{line1}</text><text x="27" y="207">{line2}</text></g>
-  <path d="M27 231 H452" stroke="{line}"/>
-  <text class="stack" x="27" y="256" fill="{accent}" font-size="12" letter-spacing=".5">{stack}</text>
-  <path d="M428 254 444 238 M430 238H444V252" fill="none" stroke="{accent}" stroke-width="1.5"/>
+  <text x="28" y="31" font-size="14" fill="{accent}" letter-spacing="2">{num} /  SELECTED WORK</text>
+  <text x="28" y="66" font-size="18" fill="{muted}" letter-spacing="1.3">{category}</text>
+  <text x="26" y="122" font-family="Georgia, 'Times New Roman', serif" font-size="48" fill="{ink}" letter-spacing="-1.5">{title}</text>
+  <g fill="{muted}" font-size="25"><text x="28" y="160">{line1}</text><text x="28" y="190">{line2}</text></g>
+  <path d="M28 205 H612" stroke="{line}"/>
+  <text x="28" y="233" fill="{accent}" font-size="20" letter-spacing=".1">{stack}</text>
+  <path d="M585 231 608 208 M590 208H608V226" fill="none" stroke="{accent}" stroke-width="2"/>
 </g></svg>
-'''.format(**p, title=escape(title), category=category, num=num, line1=line1, line2=line2, stack=stack, ornament=ornaments[ornament].format(**p))
-        (ASSETS / f'project-{slug}-{theme}.svg').write_text(card)
-
-print('Built two animated headers and eight project cards.')
+""".format(
+            **p,
+            title=escape(title),
+            category=category,
+            num=num,
+            line1=line1,
+            line2=line2,
+            stack=stack,
+            ornament=ornaments[ornament].format(**p),
+        )
+        (ASSETS / f"project-{slug}-{theme}.svg").write_text(card)

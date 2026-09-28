@@ -6,8 +6,9 @@ Reference supplied by the user: https://vc.ru/design/2059945-3d-v-veb-dizajne-20
 
 ## Assets
 
-- `assets/grimoire-3d.png`: original transparent illustration generated with the built-in image generation tool.
-- `scripts/build-profile-assets.py`: reproducible SVG composition, animation and project card layouts. Run with Python 3 from any directory. The PNG is embedded unchanged so GitHub does not need external SVG image requests.
+- `assets/grimoire-3d.png`: first transparent illustration generated with the built-in image generation tool.
+- `assets/grimoire-profile-v2.png`: current transparent illustration embedded in both headers.
+- `scripts/build-profile-assets.py`: reproducible SVG composition, animation and project card layouts. Run with Python 3 from any directory. The current PNG is embedded unchanged so GitHub does not need external SVG image requests.
 - `assets/header-{dark,light}.svg` and `assets/project-*-{dark,light}.svg`: generated assets referenced by README.
 
 The snake and contribution-map workflows are independent of these assets. The WakaTime workflow remains disabled. No additional GitHub authorization is needed to publish these visual assets.
@@ -34,3 +35,14 @@ impact or formal publications have been inferred.
 
 Content source notes are mirrored in the website repository's
 [`docs/content.md`](https://github.com/Siesher/Siesher.github.io/blob/main/docs/content.md).
+
+## Project cards — 2026-09-28
+
+The four project cards now use a full-width 640×256 composition. At a 350 px
+profile width, their descriptions remain readable; the previous two-column
+layout shrank each card to roughly half that width. Detailed architecture and
+source links sit in an expandable README section so the default view stays
+focused on the projects. Both themes reuse the original vector ornaments and
+the existing grimoire art; no new image model or external asset is required.
+Category and technology labels were enlarged and the technology baseline raised
+after reviewing all four cards at 350 px in both themes.

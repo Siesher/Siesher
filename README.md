@@ -10,34 +10,37 @@
   <a href="https://huggingface.co/Siesher">Hugging Face</a>
 </p>
 
-## Максим Сухацкий
+## Привет, я Максим
 
 **Data Scientist / ML Engineer · Альфа-Банк · МГТУ им. Н. Э. Баумана**
 
-Работаю с данными в банковской сфере, исследую обучение языковых моделей и разрабатываю прикладные AI-системы. Мне интересен весь путь: постановка задачи, эксперимент, оценка качества и интеграция модели в работающий инструмент.
+Работаю с данными в банковской сфере, исследую обучение языковых моделей и создаю прикладные AI-системы. Люблю доводить идею от постановки задачи и воспроизводимого эксперимента до инструмента, которым можно пользоваться.
 
-- **Профессиональный контекст:** банковские данные, графовая аналитика и машинное обучение.
-- **Исследовательский фокус:** дообучение LLM, preference optimization и zeroth-order методы без обратного прохода.
-- **Инженерная практика:** агентные пайплайны, API, локальный инференс и взаимодействие моделей с внешними системами.
-- **Образование:** студент МГТУ им. Н. Э. Баумана; алгоритмы, структуры данных и C++.
+**Мои темы:** графовая аналитика и ML · дообучение LLM и preference optimization · агентные системы и локальный инференс.
 
-<sub>Гримуар, небесно-голубые цветы и терпеливое собирание знаний — небольшие отсылки к Фрирен. Любопытство остаётся частью работы.</sub>
+<sub>Гримуар и небесно-голубые цветы — небольшие отсылки к «Фрирен». Любопытство остаётся частью работы.</sub>
 
 ## Избранные проекты
 
-<p>
-  <a href="https://github.com/Siesher/MITS"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-mits-dark.svg"><img src="./assets/project-mits-light.svg" width="49%" alt="MITS — сократический STEM-тьютор. Мультиагентный пайплайн, символьная проверка и обучение Qwen3.5-9B."></picture></a>
-  <a href="https://github.com/Siesher/dmezo"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-dmezo-dark.svg"><img src="./assets/project-dmezo-light.svg" width="49%" alt="D-MeZO-N — децентрализованное дообучение LLM без backpropagation. PyTorch, multi-seed эксперименты."></picture></a>
-  <a href="https://github.com/Siesher/AI_For_Supreme_Com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-supcom-dark.svg"><img src="./assets/project-supcom-light.svg" width="49%" alt="SupCom AI — локальный LLM-бот для Supreme Commander. C++ IPC-мост, Lua-рефлексы и fallback."></picture></a>
-  <a href="https://github.com/Siesher/opencode-homelab"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-opencode-dark.svg"><img src="./assets/project-opencode-light.svg" width="49%" alt="OpenCode Homelab — инфраструктура локальной AI-разработки. llama.cpp, маршрутизация контекста и MCP."></picture></a>
-</p>
+<a href="https://github.com/Siesher/MITS"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-mits-dark.svg"><img src="./assets/project-mits-light.svg" width="100%" alt="MITS — сократический STEM-тьютор. Мультиагентный пайплайн, символьная проверка и обучение Qwen3.5-9B."></picture></a>
 
-| Проект | Технический подход | Открытые материалы |
+<a href="https://github.com/Siesher/dmezo"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-dmezo-dark.svg"><img src="./assets/project-dmezo-light.svg" width="100%" alt="D-MeZO-N — децентрализованное дообучение LLM без backpropagation. PyTorch, multi-seed эксперименты."></picture></a>
+
+<a href="https://github.com/Siesher/AI_For_Supreme_Com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-supcom-dark.svg"><img src="./assets/project-supcom-light.svg" width="100%" alt="SupCom AI — локальный LLM-бот для Supreme Commander. C++ IPC-мост, Lua-рефлексы и fallback."></picture></a>
+
+<a href="https://github.com/Siesher/opencode-homelab"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-opencode-dark.svg"><img src="./assets/project-opencode-light.svg" width="100%" alt="OpenCode Homelab — инфраструктура локальной AI-разработки. llama.cpp, маршрутизация контекста и MCP."></picture></a>
+
+<details>
+<summary>Архитектура и открытые материалы проектов</summary>
+
+| Проект | Что внутри | Читать дальше |
 | :--- | :--- | :--- |
-| **[MITS](https://github.com/Siesher/MITS)** · исследовательский прототип | Profiler → Planner → Tutor → Verifier; граф знаний и SymPy / ChemPy. Qwen3.5-9B, GSPO → KTO → DPO; FastAPI + Next.js. | [Документация](https://github.com/Siesher/MITS/blob/main/docs/INDEX.md) · [Оценка качества](https://github.com/Siesher/MITS/blob/main/docs/diploma/phase0a_results.md) |
-| **[D-MeZO-N](https://github.com/Siesher/dmezo)** · исследование | Peer-to-peer fine-tuning без backward. Адаптивное ограничение момента, drift-reset и multi-seed сравнение с vanilla MeZO. | [Математический разбор](https://github.com/Siesher/dmezo/blob/main/docs/math_intuition.md) · [Эксперименты](https://github.com/Siesher/dmezo/blob/main/docs/multiseed_analysis.md) |
-| **[SupCom AI](https://github.com/Siesher/AI_For_Supreme_Com)** · прикладная система | Lua-рефлексы + Qwen3.5 4B / 9B. C++ DLL-мост, Named Pipe IPC, Python-сервер и стратегия по правилам при недоступности LLM. | [Архитектура и запуск](https://github.com/Siesher/AI_For_Supreme_Com#readme) |
-| **[OpenCode Homelab](https://github.com/Siesher/opencode-homelab)** · инфраструктура | OpenCode + llama.cpp + llama-swap; выбор контекста 65K / 128K / 256K, MCP-инструменты и установочные скрипты для Windows. | [Архитектура](https://github.com/Siesher/opencode-homelab/blob/main/docs/architecture.md) · [Установка](https://github.com/Siesher/opencode-homelab/blob/main/docs/installation.md) |
+| **MITS** | Profiler → Planner → Tutor → Verifier; граф знаний, SymPy / ChemPy, Qwen3.5-9B, FastAPI + Next.js. | [Документация](https://github.com/Siesher/MITS/blob/main/docs/INDEX.md) · [Оценка качества](https://github.com/Siesher/MITS/blob/main/docs/diploma/phase0a_results.md) |
+| **D-MeZO-N** | Peer-to-peer fine-tuning без backward; ограничение момента, drift-reset и multi-seed сравнение с vanilla MeZO. | [Математический разбор](https://github.com/Siesher/dmezo/blob/main/docs/math_intuition.md) · [Эксперименты](https://github.com/Siesher/dmezo/blob/main/docs/multiseed_analysis.md) |
+| **SupCom AI** | Lua-рефлексы, C++ DLL-мост, Named Pipe IPC, Python-сервер и стратегия по правилам при недоступности LLM. | [Архитектура и запуск](https://github.com/Siesher/AI_For_Supreme_Com#readme) |
+| **OpenCode Homelab** | OpenCode + llama.cpp + llama-swap; выбор контекста 65K / 128K / 256K и MCP-инструменты. | [Архитектура](https://github.com/Siesher/opencode-homelab/blob/main/docs/architecture.md) · [Установка](https://github.com/Siesher/opencode-homelab/blob/main/docs/installation.md) |
+
+</details>
 
 ## Исследования: результаты и условия
 
